@@ -108,7 +108,7 @@ function expenseAdd(newExpense) {
 }
 
 // Atualiza os totais.
-function updateTotals(params) {
+function updateTotals() {
   try {
     // Recupera todos os itens (li) da lista (ul)
     const items = expenseList.children;
